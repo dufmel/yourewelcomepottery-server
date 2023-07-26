@@ -6,8 +6,8 @@ const { dbConnect } = require("./db")
 let userController = require("./controllers/auth")
 let passwordController = require("./controllers/password")
 let productController = require("./controllers/products")
+let contactUserController = require("./controllers/contactUs")
 
-let sessionValidation = require("./middlewares/sessionValidation")
 const PORT = process.env.PORT || 4000
 const HOST = process.env.HOST || "127.0.0.1"
 
@@ -17,6 +17,8 @@ app.use(express.urlencoded({ extended: true }))
 app.use("/password", passwordController)
 app.use("/admin", userController)
 app.use("/products", productController)
+app.use("/form", contactUserController)
+
 
 app.listen(PORT, HOST, () => {
     dbConnect()
