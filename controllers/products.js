@@ -127,7 +127,7 @@ router.post("/create", upload.single("file"), async (req, res) => { //upload.sin
     try {
         let file = req.file
         const imageUrl = file.buffer //file.buffer is a property of multer middleware. Processed file's buffer is accessible Access binary data
-        const { altText, productName, price, description, quantity, tag } = req.body
+        const { altText, productName, price, description, quantity, tag, priceID } = req.body
         console.log(altText, productName, price, quantity, tag)
         if (!altText || !productName || !price || !quantity || !tag) throw new Error("All fields are required")
 
