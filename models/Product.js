@@ -1,4 +1,4 @@
-const { mongoose } = require("../db")
+ireconst { mongoose } = require("../db")
 
 const Product = new mongoose.Schema({
 
@@ -39,6 +39,7 @@ const Product = new mongoose.Schema({
 
     priceID:{
         type: String,
+        required: false,
     }
 
 
