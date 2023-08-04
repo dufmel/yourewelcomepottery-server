@@ -7,7 +7,7 @@ The backend is built using Express, MongoDB, and AWS S3 Buckets (for images). Pr
 
 Finally, the project uses a custom built cart that is integrated into the STRIPE ecosystem for secure purchases which then updates the artist/owner’s inventory.
 
-Alt- Installing and Running the Project
+Installing and Running the Project
 ======================================
 
 After cloning the project, be sure to run npm i to install the necessary dependencies. You will need an active account with AWS, MongoDB and Stripe. With these accounts activated you can access the necessary connections and API keys to include in a .env file that you create on your local machine. Check the documentation to ensure you are using the correct API keys:
@@ -18,7 +18,7 @@ After cloning the project, be sure to run npm i to install the necessary depende
 
 In the *.env* file, you will also need to ensure that you create a *SALT* variable and a *JWT_KEY* variable.
 
-Alt- Credits: 
+Credits: 
 ============
 
 Jonathan Amasalem, Melissa Dufrechou, Enoch Ikunda
