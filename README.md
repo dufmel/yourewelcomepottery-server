@@ -19,15 +19,15 @@ After cloning the project, be sure to run npm i to install the necessary depende
 In the *.env* file, you will also need to ensure that you create a *SALT* variable and a *JWT_KEY* variable.
 
 Credits: 
-============
+-------
 
 Jonathan Amasalem, Melissa Dufrechou, Enoch Ikunda
 Upright Education Capstone Project in partial fulfillment of Software Development Certification 
 
 Licensing:
-==============
+----------
 
 All images are subject to copyright and may not be reused without the express permission of You’re Welcome Pottery.
 
 Alt- All code is open source.
-============================
+-----------------------------
