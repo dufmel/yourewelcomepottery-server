@@ -30,4 +30,4 @@ Licensing:
 All images are subject to copyright and may not be reused without the express permission of You’re Welcome Pottery.
 
 All code is open source.
------
+----------
