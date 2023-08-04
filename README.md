@@ -8,7 +8,7 @@ The backend is built using Express, MongoDB, and AWS S3 Buckets (for images). Pr
 Finally, the project uses a custom built cart that is integrated into the STRIPE ecosystem for secure purchases which then updates the artist/owner’s inventory.
 
 Installing and Running the Project
-======================================
+----------------------------------
 
 After cloning the project, be sure to run npm i to install the necessary dependencies. You will need an active account with AWS, MongoDB and Stripe. With these accounts activated you can access the necessary connections and API keys to include in a .env file that you create on your local machine. Check the documentation to ensure you are using the correct API keys:
 
@@ -24,7 +24,7 @@ Credits:
 Jonathan Amasalem, Melissa Dufrechou, Enoch Ikunda
 Upright Education Capstone Project in partial fulfillment of Software Development Certification 
 
-Alt- Licensing:
+Licensing:
 ==============
 
 All images are subject to copyright and may not be reused without the express permission of You’re Welcome Pottery.
